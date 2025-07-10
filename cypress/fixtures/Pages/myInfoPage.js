@@ -37,7 +37,7 @@ class MyInfoPage {
         cy.get('.oxd-toast-close')
     }
     fillCustomFields() {
-       cy.get(this.selectorsList().genericField).eq(8).clear().type('testField') //roda normalmente sem bug
+       cy.get(this.selectorsList().genericField).eq(8).clear().type('09/07/1986') //roda normalmente sem bug
        
     }
 
